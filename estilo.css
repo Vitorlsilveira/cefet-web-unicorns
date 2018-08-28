@@ -1,0 +1,120 @@
+
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script');
+
+body{
+    margin: auto;
+}
+
+h2, h3{
+    font-weight: normal;
+}
+
+h2{
+    color: black;
+    font-size: 24px;
+    font-family: 'Times New Roman';
+}
+
+#cabecalho {
+    margin: 0;
+    background-color: #6175f0;
+}
+
+#cabecalho h1 {
+    margin: 0;
+    padding-top: 20px;
+    padding-left: 34px;
+    color: white;
+    font-size: 36px;
+    font-family: 'Kaushan Script';
+}
+
+#cabecalho h2 {
+    margin: 0;
+    padding-left: 34px;
+    padding-bottom: 13px;
+    color: white;
+}
+
+#verdade img{
+    float: left;
+    margin-right: 13px;
+    width: 310px;
+}
+
+p{
+    font-size: 14px;
+    font-family: 'Arial';
+}
+
+#verdade .referencia{
+    font-style: italic;
+}
+
+#verdade audio{
+    display: none;
+}
+
+#hoje {
+	margin-top: 18px;
+    float: right;
+    margin-right: 25px;
+    width: 405px;
+    padding: 20px 35px 30px 35px;
+    border: 1px solid #ff56fb;
+    background-color:#f8cef7;
+    box-sizing: border-box;
+}
+
+#hoje h2{
+    text-align: center;
+}
+
+#hoje h3{
+    color: black;
+    font-size: 18px;
+    font-family: 'Times New Roman';
+    text-align: center;
+}
+
+#hoje img{
+    height: 112px;
+    width: 112px;
+    display: block;
+    margin: 0 auto;
+}
+
+#hoje p{
+    font-size: 14px;
+    font-family: "Arial";
+    text-align: center;
+}
+
+#musica {
+    clear: left;
+}
+
+#musica h2 {
+	padding-top: 18px;
+    padding-left: 12px;
+}
+
+#musica p {
+    margin: 0px;
+    padding-left: 12px;
+    padding-bottom: 0px;
+    padding-top:0px;
+}
+
+#musica p:nth-of-type(even){
+    padding-left: 46px;
+}
+
+#musica .destacado {
+    margin-top: 8px;
+    margin-bottom: 16px;
+    padding-bottom: 14px;
+    clear: right;
+    color: #004a79;
+    background-color: #c4caf3;
+}
